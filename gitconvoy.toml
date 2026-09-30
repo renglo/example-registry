@@ -1,0 +1,4 @@
+# git-convoy membership marker (repo root).
+# role: product | ops | bom | incubating | registry
+# This checkout hosts CodeArtifact. It is not a BOM and not operator CLI source.
+role = "registry"

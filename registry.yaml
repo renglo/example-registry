@@ -1,0 +1,10 @@
+# Template — edit these values, then `renglo registry deploy --registry registry.yaml`
+# Field reference: https://github.com/renglo/renglo-ops/blob/main/docs/configuration.md#registryyaml
+name: CHANGE_ME
+github_org: CHANGE_ME_ORG
+publish_repos:
+  - CHANGE_ME_REPO
+reader_accounts:
+  - '000000000000'
+python: python-store
+npm: npm-store
