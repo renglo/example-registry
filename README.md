@@ -43,7 +43,7 @@ renglo registry deploy --registry /path/to/your-publisher/registry.yaml
 
 Store the path in `.renglo/local.yaml` as `registry:` if you want to omit `--registry` later. See [project-2-registry.md](https://github.com/renglo/renglo-ops/blob/main/docs/project-2-registry.md#deploy-it).
 
-Publishing a package is a git tag on a **product** repo, after `renglo registry connect` and GitHub Actions variables. This repository does not hold extension source.
+Publishing a package is a git tag on a **product** repo, once that repo's short name is in `publish_repos` here and its GitHub Actions variables are set. This repository does not hold extension source.
 
 ## git-convoy
 
